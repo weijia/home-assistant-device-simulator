@@ -3,5 +3,5 @@
 !.gitignore
 !requirements.txt
 !README.md
-!./BrokerTest/*
-!./DeviceSimulator/*
+!BrokerTest/*
+!DeviceSimulator/*
