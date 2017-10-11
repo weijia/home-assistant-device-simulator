@@ -4,5 +4,5 @@ lib64
 !.gitignore
 !requirements.txt
 !README.md
-!BrokerTest/*
-!DeviceSimulator/*
+!BrokerTest/*.py
+!DeviceSimulator/*.py
