@@ -8,8 +8,8 @@ import paho.mqtt.client as mqtt
 CONFIG = {
     "broker": "127.0.0.1",
     "brokerPort": 1883,
-    "brokerUser": "tonyldo",
-    "brokerPass": "yukjjjxl",
+    "brokerUser": "ENTERBROKERUSER",
+    "brokerPass": "ENTERBROKERPASS",
     "lastState": "OFF",
     "client_id": "switchSimulator" + str(randint(0, 100000)),
     "configurationTopic": "homeassistant/switch/switchSimulator/config",
