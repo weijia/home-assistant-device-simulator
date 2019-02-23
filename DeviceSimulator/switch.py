@@ -24,7 +24,7 @@ def load_config():
     try:
         with open(CONFIGLOCATION) as file_:
             config = json.load(file_)
-    except (OSError, ValueError):
+    except (OSError, ValueError, IOError):
         print("Couldn't load " + CONFIGLOCATION)
         save_config()
     else:
